@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    min-height: 100vh;
+}
+.header{
+    background-image: linear-gradient(to right,blue,yellow,rgb(14, 13, 13));
+    position: fixed;
+    font-size: 45px;
+    top: 0;
+    left: 10;
+    width: 100%;
+    padding: 7px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border: 1px;
+}
+.logo{
+    font-size: 40px;
+    font-weight: 1000;
+    color: wheat;
+     text-align: center;
+}
+
+.container img{
+    width: 55px;
+    height: 55px;
+    position: relative;
+    bottom: 20px;
+    right: 0;
+    top: 0;
+    left: 1px;
+}
+.todo{
+    
+    left: 92%;
+    border: 9px;
+    border-radius: 50%;
+    height: 10%;
+    width: 5%;
+    position: fixed;
+    top: 75%;
+    overflow: hidden;
+    z-index: 9999;
+}
+.allpositions{
+    height: auto;
+    width: auto;
+    display: flex;
+}
+.first{
+    background-color: rgb(145, 14, 243);
+    height: 30%;
+    width: 30%;
+    font-weight: bold;
+    position: sticky;
+    overflow: scroll;
+    margin-top: 5%;
+}
+.second{
+   background-color: rgb(105, 104, 103);
+   height: auto;
+   font-weight: bold;
+   width: 60%;
+   overflow: scroll;
+   margin-top: 5%;
+   
+}
+.third{
+    background-color: rgb(243, 242, 242);
+    position: relative;
+    left: 10px;
+    height: 30%;
+    font-weight: bold;
+    width: 30%;
+    margin-top: 5%;
+}
+
+footer{
+    background-image: linear-gradient(to right,black,pink,rgb(145, 177, 0));
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid black;
+    font-size: 35px;
+    text-decoration: none;
+    -webkit-text-stroke: 0.5px brown;
+}
+
